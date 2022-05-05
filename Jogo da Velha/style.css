@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans & display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background-color: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer; /*Muda o estilo do cursor*/
+    color: #eee;
+}
+
+/*.quadrado:hover {
+    background-color: #b4b4b4;
+    color: #b4b4b4;
+}*/
+
+.jogador, .vencedor{
+font-size: 30px;
+margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 250px;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #5e5e5e;
+    border: 1px solid #5e5e5e;
+    color: #fff;
+    font-weight: bold;
+}
